@@ -1,0 +1,40 @@
+html,
+body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+
+#calculator{
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    width: 470px;
+    padding: 30px;
+    border: solid black 2px;
+}
+
+#buttons{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+
+}
+
+#display{
+    width: 272px;
+    height: 68px;
+    background-color: rgb(150, 154, 141);
+    border: solid black 1px;
+}
+
+.number{
+    width: 90px;
+    height: 70px;
+    margin: 1px;
+}
