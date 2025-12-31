@@ -27,13 +27,18 @@ body{
 }
 
 #display{
+    display: flex;
+    align-items: center;
     width: 272px;
     height: 68px;
     background-color: rgb(150, 154, 141);
     border: solid black 1px;
+    margin: 1px;
 }
 
-.number{
+.operator,
+.number,
+#equal{
     width: 90px;
     height: 70px;
     margin: 1px;
